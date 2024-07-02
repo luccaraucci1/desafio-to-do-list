@@ -1,0 +1,146 @@
+.wrapper{
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: -35px;
+  display: flex;
+
+}
+
+.newTask{
+  justify-content: center;
+
+  
+}
+
+.newTask button{
+  background-color: var(--blue-dark);
+  height: 65px;
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid black;
+  line-height: 1.6;
+  align-items: center; /* Isso alinhará o conteúdo verticalmente */
+}
+
+.newTask button:hover{
+  background-color: var(--blue);
+  
+  
+}
+
+
+.newTask input[type="text"]{ 
+  padding: 20px 10px; 
+  line-height: 28px;
+  border-radius: 8px;
+  background: var(--gray-500);
+  border: 1px solid black;
+  margin-right: 8px;
+  color: var(--gray-300);
+}
+
+
+.newTask button span{
+  display: inline-block;
+}
+
+
+.newTask button .plusIcon{
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+.newTask{
+  justify-content: center;
+
+  
+}
+
+.newTask button{
+  background-color: var(--blue-dark);
+  height: 65px;
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid black;
+  line-height: 1.6;
+  align-items: center; /* Isso alinhará o conteúdo verticalmente */
+}
+
+.newTask button:hover{
+  background-color: var(--blue);
+  
+  
+}
+
+
+.newTask input[type="text"]{ 
+  padding: 20px 10px; 
+  line-height: 28px;
+  border-radius: 8px;
+  background: var(--gray-500);
+  border: 1px solid black;
+  margin-right: 8px;
+  color: var(--gray-300);
+}
+
+
+.newTask button span{
+  display: inline-block;
+}
+
+
+.newTask button .plusIcon{
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle; 
+}
+
+
+.contagemTarefas{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contagemTarefas .tarefasConcluidas{
+  color: var(--purple);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contagemTarefas .tarefasCriadas{
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contagemTarefas .numCriadas{
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 5px;
+  border-radius: 8px;
+}
+
+.contagemTarefas .numConcluidas{
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 5px;
+  border-radius: 8px;
+}
+
+.contagemTarefas span{
+  margin-left: 5px;
+}
